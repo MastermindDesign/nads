@@ -1,0 +1,20 @@
+//@import "./tailwind.css";
+
+@import "tailwindcss/base";
+
+// @import "tailwindcss/components";
+
+// @import "tailwindcss/utilities";
+
+@font-face {
+    font-family: "IBM";
+    src: url("./Px437_IBM_VGA8.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+.retro-font {
+    font-family: "IBM";
+}
+
+@import "./Button/button.scss";

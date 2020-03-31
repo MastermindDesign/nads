@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "scripts": {
+        "new-version": "lerna version --convenntional-commits --yes",
+        "diff": "lerna diff"
+    },
+    "devDependencies": {
+        "lerna": "^3.15.0"
+    }
+}

@@ -1,0 +1,29 @@
+.btn {
+    @apply px-4 py-2 font-semibold bg-transparent text-white border border-white;
+}
+
+.btn.rounded {
+    @apply rounded;
+}
+
+.btn.fill {
+    @apply bg-white text-black;
+}
+
+.btn:hover {
+    @apply bg-white text-black;
+}
+
+// red
+
+.btn-red {
+    @apply px-4 py-2 font-semibold bg-transparent text-red-600 border border-red-600;
+}
+
+.btn-red.rounded {
+    @apply rounded;
+}
+
+.btn-red:hover {
+    @apply bg-red-600 text-white;
+}

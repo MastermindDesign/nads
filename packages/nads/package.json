@@ -1,0 +1,48 @@
+{
+    "name": "nads",
+    "version": "0.0.1",
+    "description": "NADS Design",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack --env.ENV=dev --config ./webpack.config.js --watch",
+        "build": "webpack --env.ENV=prod --config ./webpack.config.js",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MastermindDesign/nads.git"
+    },
+    "author": "fr0nk3nst33n",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MastermindDesign/nads/issues"
+    },
+    "homepage": "https://github.com/MastermindDesign/nads#readme",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib",
+        "dist"
+    ],
+    "devDependencies": {
+        "autoprefixer": "^9.7.4",
+        "css-loader": "^3.4.2",
+        "file-loader": "^5.0.2",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.13.1",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-cli": "^7.1.0",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.1.3",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-notifier": "^1.8.0"
+    },
+    "dependencies": {
+        "tailwindcss": "^1.2.0"
+    }
+}
